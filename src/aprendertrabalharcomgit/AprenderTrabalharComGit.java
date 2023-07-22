@@ -5,6 +5,7 @@
  */
 package aprendertrabalharcomgit;
 
+
 /**
  *
  * @author marcus
@@ -17,6 +18,10 @@ public class AprenderTrabalharComGit {
     public static void main(String[] args) {
         // TODO code application logic here
         /*Modificação */
+        //teste da classe CalculosGeometricos
+        CalculosGeometricos c = new CalculosGeometricos();
+        System.out.println("Area do quadrado de lado 5: "+ c.areaQuadrado(5) );
+        
     }
     
 }
